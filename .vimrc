@@ -89,6 +89,10 @@ nnoremap <C-L> :nohl<CR><C-L>
 
 "------------------------------------------------------------
 " Mapping for vim pathogen
+" Now any plugins you wish to install can be extracted to a subdirectory under
+" ~/.vim/bundle, and they will be added to the 'runtimepath'.
+" :Helptags would update docs in all runtimepath
+" otherwise run only :helptags
 execute pathogen#infect()
 "------------------------------------------------------------
 
