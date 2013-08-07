@@ -37,6 +37,12 @@ sudo apt-get install -y vim
 #install screen
 sudo apt-get install -y screen
 
+#install cmake
+sudo apt-get install -y cmake
+
+#install g++ compiler
+sudo apt-get install -y g++
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./linux_config/ ]; then

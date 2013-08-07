@@ -95,4 +95,10 @@ nnoremap <C-L> :nohl<CR><C-L>
 " otherwise run only :helptags
 execute pathogen#infect()
 "------------------------------------------------------------
+" Mapping for Mini buffers
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1 
+"------------------------------------------------------------
 
