@@ -48,15 +48,15 @@ cd $HOME
 if [ -d ./linux_config/ ]; then
     mv linux_config linux_config.old
 fi
-if [ -d .vim/ ]; then
-    mv .vim .vim.old
-fi
+#if [ -d .vim/ ]; then
+#    mv .vim .vim.old
+#fi
 #git clone https://github.com/startup-class/dotfiles.git
 git clone https://github.com/nitthilan/linux_config.git
-ln -sb dotfiles/.screenrc .
-ln -sb dotfiles/.bash_profile .
-ln -sb dotfiles/.bashrc .
-ln -sb dotfiles/.bashrc_custom .
-ln -sf dotfiles/.vim .
-ln -sf dotfiles/.vimrc .
+ln -sb linux_config/.screenrc .
+ln -sb linux_config/.bash_profile .
+ln -sb linux_config/.bashrc .
+ln -sb linux_config/.bashrc_custom .
+ln -sf linux_config/.vim .
+ln -sf linux_config/.vimrc .
 
