@@ -101,4 +101,9 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1 
 let g:miniBufExplModSelTarget = 1 
 "------------------------------------------------------------
+"------------------------------------------------------------
+"Session Related: http://peterodding.com/code/vim/session/
+let g:session_autosave = 'no'
+let g:session_autosave_periodic = 2 " Save every 2 minutes
+"------------------------------------------------------------
 
